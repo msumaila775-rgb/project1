@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | WebPlatform</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">WebPlatform</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+                <li><a href="register.html" class="nav-link btn-primary">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="dashboard" class="page active">
+        <section class="dashboard-container">
+            <div class="container">
+                <div class="dashboard-header">
+                    <h1>Welcome to Your Dashboard</h1>
+                    <p>Manage your profile and account settings</p>
+                </div>
+
+                <div class="dashboard-content">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">👤</div>
+                            <div class="profile-name">
+                                <h2 id="dashboardName">User Name</h2>
+                                <p id="dashboardEmail">user@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="profile-info">
+                            <div class="info-row">
+                                <label>First Name:</label>
+                                <span id="dashboardFirstName">-</span>
+                            </div>
+                            <div class="info-row">
+                                <label>Last Name:</label>
+                                <span id="dashboardLastName">-</span>
+                            </div>
+                            <div class="info-row">
+                                <label>Email Address:</label>
+                                <span id="dashboardEmailFull">-</span>
+                            </div>
+                            <div class="info-row">
+                                <label>Member Since:</label>
+                                <span id="dashboardMemberSince">-</span>
+                            </div>
+                            <div class="info-row">
+                                <label>Account Status:</label>
+                                <span class="status-badge active">🟢 Active</span>
+                            </div>
+                        </div>
+
+                        <a href="editProfile.html" class="btn btn-primary">Edit Profile</a>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>Account Age</h3>
+                            <p id="accountAge">0 days</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Total Users</h3>
+                            <p id="totalUsers">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Last Login</h3>
+                            <p id="lastLogin">Today</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-section">
+                        <h3>Quick Actions</h3>
+                        <div class="action-buttons">
+                            <a href="editProfile.html" class="btn btn-secondary">Update Profile</a>
+                            <a href="editProfile.html" class="btn btn-secondary">Change Password</a>
+                            <a href="allUsers.html" class="btn btn-secondary">View All Users</a>
+                            <a href="contact.html" class="btn btn-secondary">Contact Support</a>
+                        </div>
+                    </div>
+
+                    <div class="resources-section">
+                        <h3>📚 Information & Resources</h3>
+                        <div class="resources-grid">
+                            <div class="resource-card">
+                                <h4>📖 Getting Started Guide</h4>
+                                <p>Learn the basics of using WebPlatform and get up to speed quickly.</p>
+                                <a href="#" class="btn btn-small">Read Guide</a>
+                            </div>
+                            <div class="resource-card">
+                                <h4>🔒 Security Tips</h4>
+                                <p>Best practices for keeping your account and data secure.</p>
+                                <a href="#" class="btn btn-small">Learn More</a>
+                            </div>
+                            <div class="resource-card">
+                                <h4>❓ Help Center</h4>
+                                <p>Find answers to common questions and troubleshooting tips.</p>
+                                <a href="faq.html" class="btn btn-small">Visit Help</a>
+                            </div>
+                            <div class="resource-card">
+                                <h4>📞 Support Contact</h4>
+                                <p>Get in touch with our support team for assistance.</p>
+                                <a href="contact.html" class="btn btn-small">Contact Us</a>
+                            </div>
+                            <div class="resource-card">
+                                <h4>📊 Account Statistics</h4>
+                                <p>View detailed analytics and insights about your account.</p>
+                                <a href="accountStats.html" class="btn btn-small">View Stats</a>
+                            </div>
+                            <div class="resource-card">
+                                <h4>📋 Documentation</h4>
+                                <p>Complete documentation and API reference guides.</p>
+                                <a href="#" class="btn btn-small">Read Docs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 WebPlatform. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

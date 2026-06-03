@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Statistics | WebPlatform</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">WebPlatform</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+                <li><a href="register.html" class="nav-link btn-primary">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="accountStats" class="page active">
+        <section class="stats-container">
+            <div class="container">
+                <h1>Account Statistics</h1>
+                <p class="intro-text">Your account insights and analytics</p>
+
+                <div class="stats-details">
+                    <div class="stat-detail-card">
+                        <h3>Account Information</h3>
+                        <div class="stat-detail-item">
+                            <label>Account Created:</label>
+                            <span id="statsCreated">-</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Days Active:</label>
+                            <span id="statsDaysActive">-</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Last Login:</label>
+                            <span id="statsLastLogin">-</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Account Status:</label>
+                            <span id="statsStatus" class="status-badge active">🟢 Active</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-detail-card">
+                        <h3>Platform Statistics</h3>
+                        <div class="stat-detail-item">
+                            <label>Total Registered Users:</label>
+                            <span id="statsTotalUsers">-</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Total Contact Messages:</label>
+                            <span id="statsTotalMessages">-</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Platform Version:</label>
+                            <span>1.0.0</span>
+                        </div>
+                        <div class="stat-detail-item">
+                            <label>Launch Date:</label>
+                            <span>May 12, 2026</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-detail-card full-width">
+                        <h3>Account Activity Log</h3>
+                        <div id="activityLog" style="max-height: 300px; overflow-y: auto;">
+                            <p style="text-align: center; color: #666;">Loading activity...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="dashboard.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Back to Dashboard</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 WebPlatform. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
