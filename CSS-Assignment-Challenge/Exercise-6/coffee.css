@@ -1,0 +1,39 @@
+body {
+    background: #e8f4f8;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: hsl(30, 85%, 20%);
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: rgb(30, 30, 30);
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+p:nth-of-type(2) {
+    word-spacing: 4px;
+}

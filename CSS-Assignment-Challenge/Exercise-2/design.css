@@ -1,0 +1,16 @@
+/* design.css */
+body{
+    background-color: #f0f0f0;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    color: rgb(60 60 60);
+    line-height: 1.6;
+}

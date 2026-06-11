@@ -1,0 +1,36 @@
+body {
+    background-color: #f3efe8;
+    color: rgb(34, 34, 34);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    color: hsl(220, 65%, 24%);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+h3 {
+    color: hsl(220, 40%, 24%);
+}
+
+p:first-of-type {
+    word-spacing: 2px;
+}
+
+p {
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+}
+
+
