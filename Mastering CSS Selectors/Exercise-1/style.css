@@ -1,0 +1,12 @@
+p {
+    color: blue;
+}
+.highlight {
+    color: orange;
+}
+#main-text {
+    color: red;
+}
+p#main-text{
+    color: green;
+}

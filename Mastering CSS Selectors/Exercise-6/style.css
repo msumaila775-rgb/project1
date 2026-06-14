@@ -1,0 +1,15 @@
+body{
+    background: #f4f4f4;
+}
+#sidebar-title{
+    font-size: 30px;
+    font-weight: 900;
+}
+ul li a{
+    color: darkblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: red;
+}
