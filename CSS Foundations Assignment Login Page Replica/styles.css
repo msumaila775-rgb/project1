@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(#c9a6e7, #e68be2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: transparent white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    max-width:300px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+}
+
+.form1{
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(97, 96, 96);
+    font-weight: 600;
+}
+input{
+    width: 200px;
+    padding: 11px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+input:focus{
+    border-color: #8e2de2;
+}
+
+button{
+    width: 100px;
+    padding: 9px;
+    background: linear-gradient(#6a11cd, #2575fc);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s, 0.3s;
+}
+
+button:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+.social-login{
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+p{
+    text-align: center;
+}
+
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
