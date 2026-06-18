@@ -35,8 +35,10 @@ label{
 input{
     width: 200px;
     padding: 11px;
-    border: 2px solid #ddd;
+    border: none;
+    border-bottom: 2px solid #ddd;
     border-radius: 8px;
+    outline: none;
     transition: 0.3s;
 }
 
